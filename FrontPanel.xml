@@ -1,0 +1,21 @@
+<camotics>
+  <!-- Note, all values are in mm regardless of 'units' option. -->
+  <!-- NC Files -->
+  <nc-files>
+    FrontPanel.tpl
+  </nc-files>
+
+  <!-- Renderer -->
+  <resolution v='0.376785'/>
+  <resolution-mode v='MEDIUM'/>
+
+  <!-- Workpiece -->
+  <automatic-workpiece v='false'/>
+  <workpiece-max v='(152.979,66.5787,0)'/>
+  <workpiece-min v='(14.0212,2.42125,-1.5)'/>
+
+  <tool_table>
+    <tool length='12' number='1' radius='12' shape='CONICAL' units='MM'/>
+    <tool length='12.25' number='2' radius='1.5875' shape='CYLINDRICAL' units='MM'/>
+  </tool_table>
+</camotics>
