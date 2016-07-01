@@ -2,7 +2,7 @@
   <!-- Note, all values are in mm regardless of 'units' option. -->
   <!-- NC Files -->
   <nc-files>
-    BackPanel.tpl
+    back_panel.tpl
   </nc-files>
 
   <!-- Renderer -->
