@@ -9,12 +9,12 @@ var drill = function(layer) {
 print('\n',layer,'\n');
   rapid({z: zSafe});
   rapid(layer.center.x,layer.center.y);
-  cut({z: -3});
+  cut({z: -5});
   rapid({z: zSafe});
 }
 
 var perforate = function(layer) {
-  for (var depth = .5; depth <= 1.5; depth+=.5) {
+  for (var depth = .5; depth <= 2.5; depth+=.5) {
     rapid({z: zSafe});
     rapid(layer.start.x,layer.start.y)
     rapid({z: -(depth -.5)});
