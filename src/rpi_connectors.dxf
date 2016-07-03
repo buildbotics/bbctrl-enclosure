@@ -23,31 +23,31 @@ $INSBASE
   9
 $EXTMIN
  10
--0.9999999999999997
+-2.325
  20
-0
+-2.5
  30
 0
   9
 $EXTMAX
  10
-160.3
+87
  20
-81.4811320755
+74.95999999999999
  30
 0
   9
 $LIMMIN
  10
-0
+-25
  20
-0
+-25
   9
 $LIMMAX
  10
-420
+275
  20
-297
+175
   9
 $ORTHOMODE
  70
@@ -111,7 +111,7 @@ $DISPSILH
   9
 $DIMSCALE
  40
-1
+2.5
   9
 $DIMASZ
  40
@@ -187,7 +187,7 @@ $DIMTAD
   9
 $DIMZIN
  70
-    9
+    8
   9
 $DIMBLK
   1
@@ -255,7 +255,7 @@ $DIMBLK2
   9
 $DIMSTYLE
   2
-STANDARD
+Standard
   9
 $DIMCLRD
  70
@@ -311,7 +311,7 @@ $DIMUPT
   9
 $DIMDEC
  70
-    4
+    2
   9
 $DIMTDEC
  70
@@ -451,7 +451,7 @@ $PELEVATION
   9
 $THICKNESS
  40
-0
+1.19888
   9
 $LIMCHECK
  70
@@ -801,19 +801,9 @@ $PEXTMAX
  30
 0
   9
-$GRIDMODE
- 70
-    1
-  9
 $SNAPSTYLE
  70
     0
-  9
-$GRIDUNIT
- 10
-0
- 20
-0
   9
 $PLIMMIN
  10
@@ -1121,9 +1111,9 @@ AcDbViewportTableRecord
  21
 1
  12
-92.05277476651102
+58.31680000000006
  22
-54.47506671114077
+32.05120000000004
  13
 0
  23
@@ -1149,7 +1139,7 @@ AcDbViewportTableRecord
  37
 0
  40
-132.8250083388926
+80.89600000000009
  41
 1.922784810126582
  42
@@ -2247,7 +2237,7 @@ AcDbLayerTableRecord
   6
 CONTINUOUS
 370
-   -3
+    0
 390
 F
   0
@@ -2261,99 +2251,11 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-CUTOUT
+TOP_COMPONENTS
  70
     0
  62
-    7
-  6
-CONTINUOUS
-370
-   -3
-390
-F
-  0
-LAYER
-  5
-4B
-330
-2
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-DRILL
- 70
-    0
- 62
-    7
-  6
-CONTINUOUS
-370
-   -3
-390
-F
-  0
-LAYER
-  5
-4C
-330
-2
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-NOTES
- 70
-    0
- 62
-    7
-  6
-CONTINUOUS
-370
-   -3
-390
-F
-  0
-LAYER
-  5
-4D
-330
-2
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-OUTLINE
- 70
-    0
- 62
-    7
-  6
-CONTINUOUS
-370
-   -3
-390
-F
-  0
-LAYER
-  5
-4E
-330
-2
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-TEMPLATE
- 70
-    5
- 62
-    6
+  111
   6
 CONTINUOUS
 370
@@ -2377,35 +2279,7 @@ AcDbSymbolTable
   0
 STYLE
   5
-4F
-330
-2
-100
-AcDbSymbolTableRecord
-100
-AcDbTextStyleTableRecord
-  2
-italiccs
- 70
-    0
- 40
-0
- 41
-1
- 50
-0
- 71
-    0
- 42
-1
-  3
-italiccs
-  4
-
-  0
-STYLE
-  5
-50
+4B
 330
 2
 100
@@ -2489,7 +2363,7 @@ ACAD
   0
 APPID
   5
-51
+4C
 330
 9
 100
@@ -2521,7 +2395,7 @@ AcDbDimStyleTable
   0
 DIMSTYLE
 105
-52
+4D
 330
 A
 100
@@ -2557,7 +2431,7 @@ Standard
 141
 0.09
 142
-0
+2.5
 143
 25.4
 144
@@ -2585,7 +2459,7 @@ Standard
  77
     0
  78
-    9
+    1
  79
     0
 170
@@ -2609,7 +2483,7 @@ Standard
 179
     0
 271
-    4
+    2
 272
     4
 273
@@ -2623,7 +2497,7 @@ Standard
 277
     2
 278
-   44
+    0
 279
     0
 280
@@ -2645,7 +2519,7 @@ Standard
 289
     3
 340
-STANDARD
+standard
 341
 
 371
@@ -2696,6 +2570,150 @@ AcDbSymbolTableRecord
 AcDbBlockTableRecord
   2
 *Paper_Space
+ 70
+    0
+280
+    1
+281
+    0
+  0
+BLOCK_RECORD
+  5
+4E
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+FIGURE_CIRCLE
+ 70
+    0
+280
+    1
+281
+    0
+  0
+BLOCK_RECORD
+  5
+51
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+FIGURE_SQUARE
+ 70
+    0
+280
+    1
+281
+    0
+  0
+BLOCK_RECORD
+  5
+54
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+FIGURE_HEX
+ 70
+    0
+280
+    1
+281
+    0
+  0
+BLOCK_RECORD
+  5
+57
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+FIGURE_OCT
+ 70
+    0
+280
+    1
+281
+    0
+  0
+BLOCK_RECORD
+  5
+5A
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+FIGURE_OBLONG
+ 70
+    0
+280
+    1
+281
+    0
+  0
+BLOCK_RECORD
+  5
+5D
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+FIGURE_TRI
+ 70
+    0
+280
+    1
+281
+    0
+  0
+BLOCK_RECORD
+  5
+60
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+FIGURE_CROSS
+ 70
+    0
+280
+    1
+281
+    0
+  0
+BLOCK_RECORD
+  5
+63
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+FIGURE_DIAMOND
  70
     0
 280
@@ -2787,739 +2805,669 @@ AcDbEntity
 100
 AcDbBlockEnd
   0
+BLOCK
+  5
+4F
+330
+4E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+FIGURE_CIRCLE
+ 70
+    0
+ 10
+0
+ 20
+0
+  3
+FIGURE_CIRCLE
+  1
+
+  0
+CIRCLE
+  5
+66
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+0
+ 20
+0
+ 40
+0.5
+  0
+ENDBLK
+  5
+50
+330
+4E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+52
+330
+51
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+FIGURE_SQUARE
+ 70
+    0
+ 10
+0
+ 20
+0
+  3
+FIGURE_SQUARE
+  1
+
+  0
+LWPOLYLINE
+  5
+67
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    1
+ 43
+0
+ 10
+-0.5
+ 20
+-0.5
+ 10
+-0.5
+ 20
+0.5
+ 10
+0.5
+ 20
+0.5
+ 10
+0.5
+ 20
+-0.5
+  0
+ENDBLK
+  5
+53
+330
+51
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+55
+330
+54
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+FIGURE_HEX
+ 70
+    0
+ 10
+0
+ 20
+0
+  3
+FIGURE_HEX
+  1
+
+  0
+LWPOLYLINE
+  5
+68
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    6
+ 70
+    1
+ 43
+0
+ 10
+-0.5
+ 20
+0
+ 10
+-0.25
+ 20
+0.5
+ 10
+0.25
+ 20
+0.5
+ 10
+0.5
+ 20
+0
+ 10
+0.25
+ 20
+-0.5
+ 10
+-0.25
+ 20
+-0.5
+  0
+ENDBLK
+  5
+56
+330
+54
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+58
+330
+57
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+FIGURE_OCT
+ 70
+    0
+ 10
+0
+ 20
+0
+  3
+FIGURE_OCT
+  1
+
+  0
+LWPOLYLINE
+  5
+69
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    8
+ 70
+    1
+ 43
+0
+ 10
+-0.5
+ 20
+-0.2071
+ 10
+-0.5
+ 20
+0.2071
+ 10
+-0.2071
+ 20
+0.5
+ 10
+0.2071
+ 20
+0.5
+ 10
+0.5
+ 20
+0.2071
+ 10
+0.5
+ 20
+-0.2071
+ 10
+0.2071
+ 20
+-0.5
+ 10
+-0.2071
+ 20
+-0.5
+  0
+ENDBLK
+  5
+59
+330
+57
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+5B
+330
+5A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+FIGURE_OBLONG
+ 70
+    0
+ 10
+0
+ 20
+0
+  3
+FIGURE_OBLONG
+  1
+
+  0
+LWPOLYLINE
+  5
+6A
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+   12
+ 70
+    1
+ 43
+0
+ 10
+-0.5
+ 20
+-0.125
+ 10
+-0.5
+ 20
+0.125
+ 10
+-0.416
+ 20
+0.375
+ 10
+-0.25
+ 20
+0.5
+ 10
+0.25
+ 20
+0.5
+ 10
+0.416
+ 20
+0.375
+ 10
+0.5
+ 20
+0.125
+ 10
+0.5
+ 20
+-0.125
+ 10
+0.416
+ 20
+-0.375
+ 10
+0.25
+ 20
+-0.5
+ 10
+-0.25
+ 20
+-0.5
+ 10
+-0.416
+ 20
+-0.375
+  0
+ENDBLK
+  5
+5C
+330
+5A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+5E
+330
+5D
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+FIGURE_TRI
+ 70
+    0
+ 10
+0
+ 20
+0
+  3
+FIGURE_TRI
+  1
+
+  0
+LWPOLYLINE
+  5
+6B
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    3
+ 70
+    1
+ 43
+0
+ 10
+-0.5
+ 20
+-0.5
+ 10
+0
+ 20
+0.5
+ 10
+0.5
+ 20
+-0.5
+  0
+ENDBLK
+  5
+5F
+330
+5D
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+61
+330
+60
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+FIGURE_CROSS
+ 70
+    0
+ 10
+0
+ 20
+0
+  3
+FIGURE_CROSS
+  1
+
+  0
+LWPOLYLINE
+  5
+6C
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+-0.5
+ 20
+0
+ 10
+0.5
+ 20
+0
+  0
+LWPOLYLINE
+  5
+6D
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    2
+ 70
+    0
+ 43
+0
+ 10
+0
+ 20
+0.5
+ 10
+0
+ 20
+-0.5
+  0
+ENDBLK
+  5
+62
+330
+60
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+64
+330
+63
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+FIGURE_DIAMOND
+ 70
+    0
+ 10
+0
+ 20
+0
+  3
+FIGURE_DIAMOND
+  1
+
+  0
+LWPOLYLINE
+  5
+6E
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    1
+ 43
+0
+ 10
+-0.5
+ 20
+0
+ 10
+0
+ 20
+0.5
+ 10
+0.5
+ 20
+0
+ 10
+0
+ 20
+-0.5
+  0
+ENDBLK
+  5
+65
+330
+63
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
 ENDSEC
   0
 SECTION
   2
 ENTITIES
   0
-LINE
-  5
-53
-100
-AcDbEntity
-  8
-TEMPLATE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-0
- 20
-0
- 11
-159.3
- 21
-0
-  0
-LINE
-  5
-54
-100
-AcDbEntity
-  8
-TEMPLATE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-159.3
- 20
-0
- 11
-159.3
- 21
-68.7
-  0
-LINE
-  5
-55
-100
-AcDbEntity
-  8
-TEMPLATE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-159.3
- 20
-68.7
- 11
-0
- 21
-68.7
-  0
-LINE
-  5
-56
-100
-AcDbEntity
-  8
-TEMPLATE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-0
- 20
-68.7
- 11
-0
- 21
-0
-  0
-LINE
-  5
-57
-100
-AcDbEntity
-  8
-TEMPLATE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-0
- 20
-7
- 11
-0
- 21
-9.699999999999999
-  0
-ARC
-  5
-58
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-3.06161699787e-16
- 20
-30.7
- 40
-1
-100
-AcDbArc
- 50
-90
- 51
-270
-  0
-LINE
-  5
-59
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-3.67394039744e-16
- 20
-31.7
- 11
-3.67394039744e-16
- 21
-33.7
-  0
-ARC
-  5
-5A
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-3.67394039744e-16
- 20
-34.7
- 40
-1
-100
-AcDbArc
- 50
-90
- 51
-270
-  0
-LINE
-  5
-5B
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-4.28626379702e-16
- 20
-35.7
- 11
-4.28626379702e-16
- 21
-37.7
-  0
-ARC
-  5
-5C
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-4.28626379702e-16
- 20
-38.7
- 40
-1
-100
-AcDbArc
- 50
-90
- 51
-270
-  0
-LINE
-  5
-5D
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-4.89858719659e-16
- 20
-39.7
- 11
-4.89858719659e-16
- 21
-41.7
-  0
-ARC
-  5
-5E
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-4.89858719659e-16
- 20
-42.7
- 40
-1
-100
-AcDbArc
- 50
-90
- 51
-270
-  0
-LINE
-  5
-5F
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-5.51091059616e-16
- 20
-43.7
- 11
-5.51091059616e-16
- 21
-45.7
-  0
-ARC
-  5
-60
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-5.51091059616e-16
- 20
-46.7
- 40
-1
-100
-AcDbArc
- 50
-90
- 51
-270
-  0
-LINE
-  5
-61
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-6.12323399574e-16
- 20
-47.7
- 11
-6.12323399574e-16
- 21
-49.7
-  0
-ARC
-  5
-62
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-6.12323399574e-16
- 20
-50.7
- 40
-1
-100
-AcDbArc
- 50
-90
- 51
-270
-  0
-LINE
-  5
-63
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-6.73555739531e-16
- 20
-51.7
- 11
-6.73555739531e-16
- 21
-53.7
-  0
-ARC
-  5
-64
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-6.73555739531e-16
- 20
-54.7
- 40
-1
-100
-AcDbArc
- 50
-90
- 51
-270
-  0
-LINE
-  5
-65
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-7.34788079488e-16
- 20
-55.7
- 11
-7.34788079488e-16
- 21
-57.7
-  0
-ARC
-  5
-66
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-7.34788079488e-16
- 20
-58.7
- 40
-1
-100
-AcDbArc
- 50
-90
- 51
-270
-  0
-LINE
-  5
-67
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-7.96020419446e-16
- 20
-59.7
- 11
-7.96020419446e-16
- 21
-61.7
-  0
-ARC
-  5
-68
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-7.96020419446e-16
- 20
-62.7
- 40
-1
-100
-AcDbArc
- 50
-90
- 51
-270
-  0
-ARC
-  5
-69
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-2.95
- 20
-65.75
- 40
-2.95
-100
-AcDbArc
- 50
-90
- 51
-180
-  0
-LINE
-  5
-6A
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-0
- 20
-65.75
- 11
-8.57252759403e-16
- 21
-63.7
-  0
-ARC
-  5
-6B
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-4.45
- 20
-68.7
- 40
-1.5
-100
-AcDbArc
- 50
-0
- 51
-180
-  0
-LINE
-  5
-6C
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-5.95
- 20
-68.7
- 11
-8.949999999999999
- 21
-68.7
-  0
-ARC
-  5
-6D
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-10.45
- 20
-68.7
- 40
-1.5
-100
-AcDbArc
- 50
-0
- 51
-180
-  0
-LINE
-  5
-6E
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-11.95
- 20
-68.7
- 11
-14.95
- 21
-68.7
-  0
-ARC
+LWPOLYLINE
   5
 6F
 100
 AcDbEntity
   8
-OUTLINE
+TOP_COMPONENTS
   6
 ByLayer
  62
@@ -3527,27 +3475,41 @@ ByLayer
 370
    -1
 100
-AcDbCircle
- 10
-16.45
- 20
-68.7
- 40
-1.5
-100
-AcDbArc
- 50
+AcDbPolyline
+ 90
+    5
+ 70
+    0
+ 43
 0
- 51
-180
+ 10
+87
+ 20
+2.495
+ 10
+87
+ 20
+18.005
+ 10
+65.65000000000001
+ 20
+18.005
+ 10
+65.65000000000001
+ 20
+2.495
+ 10
+87
+ 20
+2.495
   0
-LINE
+LWPOLYLINE
   5
 70
 100
 AcDbEntity
   8
-OUTLINE
+TOP_COMPONENTS
   6
 ByLayer
  62
@@ -3555,23 +3517,49 @@ ByLayer
 370
    -1
 100
-AcDbLine
+AcDbPolyline
+ 90
+    7
+ 70
+    0
+ 43
+0
  10
-17.95
+87
  20
-68.7
- 11
-20.95
- 21
-68.7
+40.43
+ 10
+69.3
+ 20
+40.43
+ 10
+69.3
+ 20
+53.57
+ 10
+87
+ 20
+53.57
+ 10
+87
+ 20
+39.65
+ 10
+86.5
+ 20
+39.65
+ 10
+86.5
+ 20
+40.43
   0
-ARC
+LWPOLYLINE
   5
 71
 100
 AcDbEntity
   8
-OUTLINE
+TOP_COMPONENTS
   6
 ByLayer
  62
@@ -3579,27 +3567,37 @@ ByLayer
 370
    -1
 100
-AcDbCircle
- 10
-22.45
- 20
-68.7
- 40
-1.5
-100
-AcDbArc
- 50
+AcDbPolyline
+ 90
+    4
+ 70
+    0
+ 43
 0
- 51
-180
+ 10
+87
+ 20
+53.57
+ 10
+87
+ 20
+54.35
+ 10
+86.5
+ 20
+54.35
+ 10
+86.5
+ 20
+53.57
   0
-LINE
+LWPOLYLINE
   5
 72
 100
 AcDbEntity
   8
-OUTLINE
+TOP_COMPONENTS
   6
 ByLayer
  62
@@ -3607,23 +3605,49 @@ ByLayer
 370
    -1
 100
-AcDbLine
+AcDbPolyline
+ 90
+    7
+ 70
+    0
+ 43
+0
  10
-23.95
+87
  20
-68.7
- 11
-26.95
- 21
-68.7
+22.43
+ 10
+69.3
+ 20
+22.43
+ 10
+69.3
+ 20
+35.57
+ 10
+87
+ 20
+35.57
+ 10
+87
+ 20
+21.65
+ 10
+86.5
+ 20
+21.65
+ 10
+86.5
+ 20
+22.43
   0
-ARC
+LWPOLYLINE
   5
 73
 100
 AcDbEntity
   8
-OUTLINE
+TOP_COMPONENTS
   6
 ByLayer
  62
@@ -3631,1831 +3655,29 @@ ByLayer
 370
    -1
 100
-AcDbCircle
- 10
-28.45
- 20
-68.7
- 40
-1.5
-100
-AcDbArc
- 50
-0
- 51
-180
-  0
-LINE
-  5
-74
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-29.95
- 20
-68.7
- 11
-32.95
- 21
-68.7
-  0
-ARC
-  5
-75
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-34.45
- 20
-68.7
- 40
-1.5
-100
-AcDbArc
- 50
-0
- 51
-180
-  0
-LINE
-  5
-76
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-35.95
- 20
-68.7
- 11
-38.95
- 21
-68.7
-  0
-ARC
-  5
-77
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-40.45
- 20
-68.7
- 40
-1.5
-100
-AcDbArc
- 50
-0
- 51
-180
-  0
-LINE
-  5
-78
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-41.95
- 20
-68.7
- 11
-44.95
- 21
-68.7
-  0
-LINE
-  5
-79
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-44.95
- 20
-68.7
- 11
-45.55
- 21
-69.3
-  0
-LINE
-  5
-7A
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-45.55
- 20
-69.3
- 11
-83.75
- 21
-69.3
-  0
-LINE
-  5
-7B
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-83.75
- 20
-69.3
- 11
-84.34999999999999
- 21
-68.7
-  0
-LINE
-  5
-7C
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-84.34999999999999
- 20
-68.7
- 11
-87.34999999999999
- 21
-68.7
-  0
-ARC
-  5
-7D
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-88.84999999999999
- 20
-68.7
- 40
-1.5
-100
-AcDbArc
- 50
-0
- 51
-180
-  0
-LINE
-  5
-7E
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-90.34999999999999
- 20
-68.7
- 11
-93.34999999999999
- 21
-68.7
-  0
-ARC
-  5
-7F
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-94.84999999999999
- 20
-68.7
- 40
-1.5
-100
-AcDbArc
- 50
-0
- 51
-180
-  0
-LINE
-  5
-80
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-96.34999999999999
- 20
-68.7
- 11
-99.34999999999999
- 21
-68.7
-  0
-ARC
-  5
-81
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-100.85
- 20
-68.7
- 40
-1.5
-100
-AcDbArc
- 50
-0
- 51
-180
-  0
-LINE
-  5
-82
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-102.35
- 20
-68.7
- 11
-105.35
- 21
-68.7
-  0
-ARC
-  5
-83
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-106.85
- 20
-68.7
- 40
-1.5
-100
-AcDbArc
- 50
-0
- 51
-180
-  0
-LINE
-  5
-84
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-108.35
- 20
-68.7
- 11
-111.35
- 21
-68.7
-  0
-ARC
-  5
-85
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-112.85
- 20
-68.7
- 40
-1.5
-100
-AcDbArc
- 50
-0
- 51
-180
-  0
-LINE
-  5
-86
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-114.35
- 20
-68.7
- 11
-117.35
- 21
-68.7
-  0
-ARC
-  5
-87
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-118.85
- 20
-68.7
- 40
-1.5
-100
-AcDbArc
- 50
-0
- 51
-180
-  0
-LINE
-  5
-88
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-120.35
- 20
-68.7
- 11
-123.35
- 21
-68.7
-  0
-ARC
-  5
-89
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-124.85
- 20
-68.7
- 40
-1.5
-100
-AcDbArc
- 50
-0
- 51
-180
-  0
-LINE
-  5
-8A
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-126.35
- 20
-68.7
- 11
-129.35
- 21
-68.7
-  0
-ARC
-  5
-8B
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-130.85
- 20
-68.7
- 40
-1.5
-100
-AcDbArc
- 50
-0
- 51
-180
-  0
-LINE
-  5
-8C
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-132.35
- 20
-68.7
- 11
-135.35
- 21
-68.7
-  0
-ARC
-  5
-8D
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-136.85
- 20
-68.7
- 40
-1.5
-100
-AcDbArc
- 50
-0
- 51
-180
-  0
-LINE
-  5
-8E
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-138.35
- 20
-68.7
- 11
-141.35
- 21
-68.7
-  0
-ARC
-  5
-8F
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-142.85
- 20
-68.7
- 40
-1.5
-100
-AcDbArc
- 50
-0
- 51
-180
-  0
-LINE
-  5
-90
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-144.35
- 20
-68.7
- 11
-147.35
- 21
-68.7
-  0
-ARC
-  5
-91
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-148.85
- 20
-68.7
- 40
-1.5
-100
-AcDbArc
- 50
-0
- 51
-180
-  0
-LINE
-  5
-92
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-150.35
- 20
-68.7
- 11
-153.35
- 21
-68.7
-  0
-ARC
-  5
-93
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-154.85
- 20
-68.7
- 40
-1.5
-100
-AcDbArc
- 50
-0
- 51
-180
-  0
-ARC
-  5
-94
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-159.3
- 20
-30.7
- 40
-1
-100
-AcDbArc
- 50
-270
- 51
-90
-  0
-LINE
-  5
-95
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-159.3
- 20
-31.7
- 11
-159.3
- 21
-33.7
-  0
-ARC
-  5
-96
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-159.3
- 20
-34.7
- 40
-1
-100
-AcDbArc
- 50
-270
- 51
-90
-  0
-LINE
-  5
-97
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-159.3
- 20
-35.7
- 11
-159.3
- 21
-37.7
-  0
-ARC
-  5
-98
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-159.3
- 20
-38.7
- 40
-1
-100
-AcDbArc
- 50
-270
- 51
-90
-  0
-LINE
-  5
-99
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-159.3
- 20
-39.7
- 11
-159.3
- 21
-41.7
-  0
-ARC
-  5
-9A
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-159.3
- 20
-42.7
- 40
-1
-100
-AcDbArc
- 50
-270
- 51
-90
-  0
-LINE
-  5
-9B
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-159.3
- 20
-43.7
- 11
-159.3
- 21
-45.7
-  0
-ARC
-  5
-9C
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-159.3
- 20
-46.7
- 40
-1
-100
-AcDbArc
- 50
-270
- 51
-90
-  0
-LINE
-  5
-9D
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-159.3
- 20
-47.7
- 11
-159.3
- 21
-49.7
-  0
-ARC
-  5
-9E
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-159.3
- 20
-50.7
- 40
-1
-100
-AcDbArc
- 50
-270
- 51
-90
-  0
-LINE
-  5
-9F
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-159.3
- 20
-51.7
- 11
-159.3
- 21
-53.7
-  0
-ARC
-  5
-A0
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-159.3
- 20
-54.7
- 40
-1
-100
-AcDbArc
- 50
-270
- 51
-90
-  0
-LINE
-  5
-A1
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-159.3
- 20
-55.7
- 11
-159.3
- 21
-57.7
-  0
-ARC
-  5
-A2
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-159.3
- 20
-58.7
- 40
-1
-100
-AcDbArc
- 50
-270
- 51
-90
-  0
-LINE
-  5
-A3
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-159.3
- 20
-59.7
- 11
-159.3
- 21
-61.7
-  0
-ARC
-  5
-A4
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-159.3
- 20
-62.7
- 40
-1
-100
-AcDbArc
- 50
-270
- 51
-90
-  0
-ARC
-  5
-A5
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-156.35
- 20
-65.75
- 40
-2.95
-100
-AcDbArc
- 50
-0
- 51
-90
-  0
-LINE
-  5
-A6
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-159.3
- 20
-65.75
- 11
-159.3
- 21
-63.7
-  0
-TEXT
-  5
-A7
-100
-AcDbEntity
-  8
-NOTES
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbText
- 10
-114.87672956
- 20
-79.4811320755
- 30
-0
- 40
-2
-  1
-Counter sink for M3 flat head screws
- 50
-0
- 41
-1
- 51
-0
-  7
-italiccs
- 71
+AcDbPolyline
+ 90
+    4
+ 70
     0
- 72
-    1
- 11
-114.87672956
- 21
-79.4811320755
- 31
+ 43
 0
-210
-0
-220
-0
-230
-1
-100
-AcDbText
-  0
-CIRCLE
-  5
-A8
-100
-AcDbEntity
-  8
-DRILL
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
  10
-3.65
+87
  20
-4
- 40
-0.8
-  0
-CIRCLE
-  5
-A9
-100
-AcDbEntity
-  8
-DRILL
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
+35.57
  10
-155.65
+87
  20
-4
- 40
-0.8
-  0
-CIRCLE
-  5
-AA
-100
-AcDbEntity
-  8
-DRILL
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
+36.35
  10
-6
+86.5
  20
-63.7
- 40
-0.8
-  0
-CIRCLE
-  5
-AB
-100
-AcDbEntity
-  8
-DRILL
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
+36.35
  10
-153.3
+86.5
  20
-63.7
- 40
-0.8
-  0
-CIRCLE
-  5
-AC
-100
-AcDbEntity
-  8
-DRILL
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-145
- 20
-7
- 40
-2
-  0
-CIRCLE
-  5
-AD
-100
-AcDbEntity
-  8
-DRILL
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-145
- 20
-62
- 40
-2
-  0
-CIRCLE
-  5
-AE
-100
-AcDbEntity
-  8
-DRILL
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-52
- 20
-7
- 40
-2
-  0
-CIRCLE
-  5
-AF
-100
-AcDbEntity
-  8
-DRILL
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-52
- 20
-62
- 40
-2
-  0
-LINE
-  5
-B0
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-159.3
- 20
-0
- 11
-0
- 21
-0
-  0
-LINE
-  5
-B1
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-0
- 20
-0
- 11
-0
- 21
-29.70000000000011
-  0
-LINE
-  5
-B2
-100
-AcDbEntity
-  8
-OUTLINE
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-159.3
- 20
-0
- 11
-159.3
- 21
-29.69999999999999
-  0
-LINE
-  5
-B3
-100
-AcDbEntity
-  8
-CUTOUT
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-20
- 20
-30.8
- 11
-20
- 21
-50.2
-  0
-LINE
-  5
-B4
-100
-AcDbEntity
-  8
-CUTOUT
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-20
- 20
-50.2
- 11
-33
- 21
-50.2
-  0
-LINE
-  5
-B5
-100
-AcDbEntity
-  8
-CUTOUT
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-33
- 20
-30.8
- 11
-20
- 21
-30.8
-  0
-LINE
-  5
-B6
-100
-AcDbEntity
-  8
-CUTOUT
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-33
- 20
-50.2
- 11
-33
- 21
-30.8
-  0
-LINE
-  5
-B7
-100
-AcDbEntity
-  8
-CUTOUT
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-138.5
- 20
-52.5
- 11
-58.5
- 21
-52.5
-  0
-LINE
-  5
-B8
-100
-AcDbEntity
-  8
-CUTOUT
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-138.5
- 20
-52.5
- 11
-138.5
- 21
-16.5
-  0
-LINE
-  5
-B9
-100
-AcDbEntity
-  8
-CUTOUT
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-58.5
- 20
-52.5
- 11
-58.5
- 21
-16.5
-  0
-LINE
-  5
-BA
-100
-AcDbEntity
-  8
-CUTOUT
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-138.5
- 20
-16.5
- 11
-58.5
- 21
-16.5
+35.57
   0
 ENDSEC
   0
