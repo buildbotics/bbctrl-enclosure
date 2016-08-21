@@ -9,6 +9,8 @@ ZIPFILES=$(PDF) $(SVGS) $(DXFS)
 
 all: $(ZIP)
 
+pdf: $(PDF)
+
 %.pdf: %.svg
 	inkscape -A $@ $<
 
