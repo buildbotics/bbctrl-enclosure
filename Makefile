@@ -11,8 +11,10 @@ all: $(ZIP)
 
 pdf: $(PDF)
 
+zip: $(ZIP)
+
 %.pdf: %.svg
-	inkscape -A $@ $<
+	inkscape -T -C -A $@ $<
 
 $(PDF): $(PDFS)
 	gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=$@ $(PDFS)

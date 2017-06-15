@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-COUNTER
+DRILL
   9
 $CELTYPE
   6
@@ -1121,9 +1121,9 @@ AcDbViewportTableRecord
  21
 1
  12
-55.55837811342391
+80.79606404269548
  22
-34.15369214800656
+37.00006671114092
  13
 0
  23
@@ -1149,7 +1149,7 @@ AcDbViewportTableRecord
  37
 0
  40
-61.14406309643122
+77.34416277518379
  41
 2.118549511854951
  42
@@ -5611,13 +5611,13 @@ AcDbLine
  21
 69.19999999999877
   0
-CIRCLE
+LINE
   5
 C1
 100
 AcDbEntity
   8
-DRILL
+CUTOUT
   6
 ByLayer
  62
@@ -5625,21 +5625,23 @@ ByLayer
 370
    -1
 100
-AcDbCircle
+AcDbLine
  10
-145
+138.5
  20
-5
- 40
-2
+16
+ 11
+58.5
+ 21
+16
   0
-CIRCLE
+LINE
   5
 C2
 100
 AcDbEntity
   8
-DRILL
+CUTOUT
   6
 ByLayer
  62
@@ -5647,21 +5649,23 @@ ByLayer
 370
    -1
 100
-AcDbCircle
+AcDbLine
  10
-145
+58.5
  20
-60
- 40
-2
+48.5
+ 11
+58.5
+ 21
+16
   0
-CIRCLE
+LINE
   5
 C3
 100
 AcDbEntity
   8
-DRILL
+CUTOUT
   6
 ByLayer
  62
@@ -5669,21 +5673,23 @@ ByLayer
 370
    -1
 100
-AcDbCircle
+AcDbLine
  10
-52
+138.5
  20
-5
- 40
-2
+48.5
+ 11
+58.5
+ 21
+48.5
   0
-CIRCLE
+LINE
   5
 C4
 100
 AcDbEntity
   8
-DRILL
+CUTOUT
   6
 ByLayer
  62
@@ -5691,13 +5697,15 @@ ByLayer
 370
    -1
 100
-AcDbCircle
+AcDbLine
  10
-52
+138.5
  20
-60
- 40
-2
+48.5
+ 11
+138.5
+ 21
+16
   0
 LINE
   5
@@ -5715,13 +5723,13 @@ ByLayer
 100
 AcDbLine
  10
-138.5
+10
  20
-16
+22.55
  11
-58.5
+10
  21
-16
+41.95
   0
 LINE
   5
@@ -5739,13 +5747,13 @@ ByLayer
 100
 AcDbLine
  10
-58.5
+10
  20
-48.5
+41.95
  11
-58.5
+23
  21
-16
+41.95
   0
 LINE
   5
@@ -5763,13 +5771,13 @@ ByLayer
 100
 AcDbLine
  10
-138.5
+23
  20
-48.5
+22.55
  11
-58.5
+10
  21
-48.5
+22.55
   0
 LINE
   5
@@ -5787,21 +5795,21 @@ ByLayer
 100
 AcDbLine
  10
-138.5
+23
  20
-48.5
+41.95
  11
-138.5
+23
  21
-16
+22.55
   0
-LINE
+CIRCLE
   5
 C9
 100
 AcDbEntity
   8
-CUTOUT
+COUNTER
   6
 ByLayer
  62
@@ -5809,23 +5817,21 @@ ByLayer
 370
    -1
 100
-AcDbLine
+AcDbCircle
  10
-10
+52
  20
-22.55
- 11
-10
- 21
-41.95
+60
+ 40
+2.55
   0
-LINE
+CIRCLE
   5
 CA
 100
 AcDbEntity
   8
-CUTOUT
+COUNTER
   6
 ByLayer
  62
@@ -5833,23 +5839,21 @@ ByLayer
 370
    -1
 100
-AcDbLine
+AcDbCircle
  10
-10
+145
  20
-41.95
- 11
-23
- 21
-41.95
+60
+ 40
+2.55
   0
-LINE
+CIRCLE
   5
 CB
 100
 AcDbEntity
   8
-CUTOUT
+COUNTER
   6
 ByLayer
  62
@@ -5857,23 +5861,21 @@ ByLayer
 370
    -1
 100
-AcDbLine
+AcDbCircle
  10
-23
+145
  20
-22.55
- 11
-10
- 21
-22.55
+5
+ 40
+2.55
   0
-LINE
+CIRCLE
   5
 CC
 100
 AcDbEntity
   8
-CUTOUT
+COUNTER
   6
 ByLayer
  62
@@ -5881,15 +5883,101 @@ ByLayer
 370
    -1
 100
-AcDbLine
+AcDbCircle
  10
-23
+52
  20
-41.95
- 11
-23
- 21
-22.55
+5
+ 40
+2.55
+  0
+CIRCLE
+  5
+CD
+100
+AcDbEntity
+  8
+DRILL
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+145
+ 20
+60
+ 40
+1.6
+  0
+CIRCLE
+  5
+CE
+100
+AcDbEntity
+  8
+DRILL
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+145
+ 20
+5
+ 40
+1.6
+  0
+CIRCLE
+  5
+CF
+100
+AcDbEntity
+  8
+DRILL
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+52
+ 20
+5
+ 40
+1.6
+  0
+CIRCLE
+  5
+D0
+100
+AcDbEntity
+  8
+DRILL
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+52
+ 20
+60
+ 40
+1.6
   0
 ENDSEC
   0
