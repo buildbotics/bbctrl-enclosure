@@ -10,14 +10,15 @@
 | cdcdcd | Cool Gray 2 C  |
 
 
-## How to convert DXF to PDF
+## How ot update PDF from new DXF
 
- * Import DXF in Inkscape.
- * Ungroup once.
- * Delete unwanted layers.
+ * Open existing SVG in Inkscape.
+ * Import DXF.
+ * Ungroup DXF once.
+ * Delete unwanted layers.  Always keep outline layer for centering.
  * For each layer.
    * Select the the layer.
-   * Move to Inkscape layer.
+   * Move selection to correct layer.
    * Unlink clones (symbols) Shift-Alt-D.
    * Ungroup layer.
    * Switch to point edit mode.
@@ -25,6 +26,6 @@
    * Join selected points.
    * Change layer fill and stroke.
  * Select new layers.
- * Center select layers as a group on page.
+ * Center selected layers as a group on page.
  * Save to SVG.
  * Save to PDF.
