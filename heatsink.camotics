@@ -1,0 +1,25 @@
+{
+      "units": "metric",
+      "resolution-mode": "medium",
+      "resolution": 1,
+      "tools": {
+        "1": {
+          "units": "imperial",
+          "shape": "cylindrical",
+          "length": 1,
+          "diameter": 0.125,
+          "description": ""
+        }
+      },
+      "workpiece": {
+        "automatic": false,
+        "margin": 5,
+        "bounds": {
+          "min": [-5, -5, -5],
+          "max": [50, 37, 0]
+        }
+      },
+      "files": [
+        "heatsink.tpl"
+      ]
+    }
