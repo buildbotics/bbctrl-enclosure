@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -38,16 +38,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1680"
-     inkscape:window-height="971"
+     inkscape:window-width="1920"
+     inkscape:window-height="1053"
      id="namedview60"
      showgrid="false"
      units="in"
-     inkscape:zoom="0.62177903"
-     inkscape:cx="497.6577"
-     inkscape:cy="655.20054"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:zoom="2.4871161"
+     inkscape:cx="566.55805"
+     inkscape:cy="417.52382"
+     inkscape:window-x="1680"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg58" />
   <g
@@ -325,4 +325,26 @@
        id="tspan17734"
        x="84.486046"
        y="65.620316">Back</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.07999992px;line-height:125%;font-family:'Liberation Serif';-inkscape-font-specification:'Liberation Serif Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#f5f5f8;fill-opacity:1;stroke:none;stroke-width:0.28222221px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="178.33627"
+     y="190.87515"
+     id="text11631"><tspan
+       style="stroke-width:0.28222221px"
+       sodipodi:role="line"
+       id="tspan11633"
+       x="178.33627"
+       y="190.87515">+</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.07999992px;line-height:125%;font-family:'Liberation Serif';-inkscape-font-specification:'Liberation Serif Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#f5f5f8;fill-opacity:1;stroke:none;stroke-width:0.28222221px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="178.72627"
+     y="184.1075"
+     id="text11635"><tspan
+       style="stroke-width:0.28222221px"
+       sodipodi:role="line"
+       id="tspan11637"
+       x="178.72627"
+       y="184.1075">-</tspan></text>
 </svg>
